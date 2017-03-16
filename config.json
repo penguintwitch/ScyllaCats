@@ -1,0 +1,29 @@
+{
+    "web_address": ":9002",
+    "enable_statistics": true,
+    "destinations": [
+        {
+            "username": "Squid Bot",
+            "avatar": "https://b.catgirlsare.sexy/xik9.png",
+            "webhook": "https://discordapp.com/api/webhooks/291979617638678538/0P3FxTVtR5eU8sv1AN4Tq3eqgJqv5McGB3lmVtyNU084lFcJwuwsIx8LjEaYZAfZBvQ5",
+            "cron": "0/5 * * * * *",
+            "sources": [
+                {
+                    "service": "randomcat",
+                    "chance": 1,
+                    "display": "embed"
+                },
+                {
+                    "service": "ibsearch",
+                    "chance": 2,
+                    "arguments": {"query": "nekomimi rating:safe random: size:<2m>1m", "key": "ibsearch key goes here"}
+                },
+                {
+                    "service": "ibsearch",
+                    "chance": 2,
+                    "arguments": {"query": "fox_ears rating:safe random: size:<2m>1m", "key": "ibsearch key goes here"}
+                }
+            ] 
+        }
+    ]
+}
